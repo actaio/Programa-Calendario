@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resultado de la reserva</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section id="card" class="card">
+      <div id="statusIcon" class="status-icon" aria-hidden="true"></div>
+
+      <h1 id="title" class="title"></h1>
+      <p id="message" class="message"></p>
+
+      <div id="reasonBox" class="reason-box" hidden>
+        <span class="reason-label">Motivo</span>
+        <span id="reasonText"></span>
+      </div>
+
+      <div id="detailsSection">
+        <hr class="divider" />
+        <ul id="detailsList" class="details"></ul>
+      </div>
+
+      <div class="actions">
+        <a id="actionButton" class="btn" href="#">Volver al formulario</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
